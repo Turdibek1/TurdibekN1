@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maktab rasmiy sayti</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- MENYU -->
+    <header>
+        <h2>Maktab №35</h2>
+        <nav>
+    <a href="#home">Bosh sahifa</a>
+    <a href="#leaders">Rahbariyat</a>
+    <a href="#teachers">O‘qituvchilar</a>
+    <a href="#students">O‘quvchilar</a>
+    <a href="#news">Yangiliklar</a>
+    <a href="#contact">Aloqa</a>
+</nav>
+
+
+    </header>
+
+    <!-- MAKTAB RASMI -->
+    <section id="home">
+        <h1>Mening maktabim</h1>
+        <p>Bu sayt maktabimiz haqida umumiy ma’lumot beradi</p>
+        <img src="images/school.jpg" alt="Maktab rasmi" width="600">
+    </section>
+    <!-- RAHBARIYAT BO‘LIMI -->
+<section class="leaders" id="leaders">
+
+    <h2><u>Rahbariyat</u></h2>
+
+    <div class="card-container">
+        <div class="card">
+            <img src="images/director.jpg" alt="Direktor">
+            <h3>Aliyev Anvar</h3>
+            <p>Direktor</p>
+        </div>
+        <div class="card">
+            <img src="images/deputy1.jpg" alt="Direktor o‘rinbosari">
+            <h3>Karimova Dilnoza</h3>
+            <p>O‘quv ishlari bo‘yicha o‘rinbosar</p>
+        </div>
+        <div class="card">
+            <img src="images/deputy2.jpg" alt="Direktor o‘rinbosari">
+            <h3>Usmonov Baxtiyor</h3>
+            <p>Ma’naviy-ma’rifiy ishlar bo‘yicha</p>
+        </div>
+    </div>
+</section>
+<!-- O‘QITUVCHILAR BO‘LIMI -->
+<section class="teachers" id="teachers">
+
+<h2><u>O‘qituvchilar</u></h2>
+
+<table border="1" id="teacherTable">
+<thead>
+<tr>
+    <th>Fan</th>
+    <th>Erkak</th>
+    <th>Ayol</th>
+    <th>Mutaxassis</th>
+    <th>2-toifa</th>
+    <th>1-toifa</th>
+    <th>Oliy toifa</th>
+</tr>
+</thead>
+<tbody></tbody>
+<tfoot>
+<tr>
+    <th>Jami</th>
+    <th id="totalMale">0</th>
+    <th id="totalFemale">0</th>
+    <th id="totalSpecialist">0</th>
+    <th id="total2">0</th>
+    <th id="total1">0</th>
+    <th id="totalHigh">0</th>
+</tr>
+</tfoot>
+</table>
+</section>
+<script src="js/teachers.js"></script>
+
+<section id="students">
+
+    <h2><u>O‘quvchilar</u></h2>
+
+    <table border="1" id="studentTable">
+        <thead>
+            <tr id="classRow">
+                <th>№</th>
+                <!-- JS orqali 12 sinf ustunlari -->
+            </tr>
+        </thead>
+        <tbody id="studentBody">
+            <!-- O‘quvchilar ismlari JS orqali -->
+        </tbody>
+        <tfoot>
+            <tr id="totalRow">
+                <th>Jami</th>
+                <!-- JS orqali jami sonlar -->
+            </tr>
+        </tfoot>
+    </table>
+</section>
+
+<script src="js/students.js"></script>
+
+<!-- XARITA BO‘LIMI -->
+<section class="map">
+    <h2><u>Maktab manzili</u></h2>
+    <p>Maktabimiz  xaritada quyidagi joyda joylashgan:
+        BuxDPI 👇🏻
+    </p>
+
+    <div class="map-container">
+        <iframe
+            width="100%"
+            height="450"
+            style="border:0"
+            loading="lazy"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12265.123456789!2d64.4203!3d39.7739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f481f...!2sBuxoro%20davlat%20pedagogika%20instituti!5e0!3m2!1suz!2s!4v0000000000000">
+        </iframe>
+    </div>
+</section>
+<!-- DARS JARAYONI RASMLARI BO‘LIMI -->
+<section class="class-photos">
+    <U><h2>Dars jarayoni</h2></U>
+    <p>Quyidagi rasm va fotosuratlar maktabimiz dars jarayonidan namunalar:</p>
+
+    <div class="photo-grid">
+        <div class="photo-card">
+            <img src="images/class1.jpg" alt="Dars 1">
+            <p>Dars 1: Matematika</p>
+        </div>
+        <div class="photo-card">
+            <img src="images/class2.jpg" alt="Dars 2">
+            <p>Dars 2: Fizika</p>
+        </div>
+        <div class="photo-card">
+            <img src="images/class3.jpg" alt="Dars 3">
+            <p>Dars 3: Ingliz tili</p>
+        </div>
+        <div class="photo-card">
+            <img src="images/class4.jpg" alt="Dars 1">
+            <p>Dars 4: Matematika</p>
+        </div>
+        <div class="photo-card">
+            <img src="images/class5.jpg" alt="Dars 2">
+            <p>Dars 5: Fizika</p>
+        </div>
+        <div class="photo-card">
+            <img src="images/class6.jpg" alt="Dars 3">
+            <p>Dars 6: Ingliz tili</p>
+        </div><div class="photo-card">
+            <img src="images/class20.jpg" alt="Dars 1">
+            <p>Dars 7: Matematika</p>
+        </div>
+        <div class="photo-card">
+            <img src="images/class19.jpg" alt="Dars 2">
+            <p>Dars 8: Fizika</p>
+        </div>
+        <div class="photo-card">
+            <img src="images/class18.jpg" alt="Dars 3">
+            <p>Dars 9: Ingliz tili</p>
+        </div><div class="photo-card">
+            <img src="images/class17.jpg" alt="Dars 1">
+            <p>Dars 10: Matematika</p>
+        </div>
+        <div class="photo-card">
+            <img src="images/class15.jpg" alt="Dars 2">
+            <p>Dars 11: Fizika</p>
+        </div>
+        <div class="photo-card">
+            <img src="images/class13.jpg" alt="Dars 3">
+            <p>Dars 12: Ingliz tili</p>
+        </div>
+        <!-- shu tarzda jami 20 ta rasm qo‘shiladi -->
+    </div>
+</section>
+
+<!-- DARS VIDEOLARI BO‘LIMI -->
+<section class="class-videos">
+    <h2><U>Darsdan lavhalar</U></h2>
+    <p>Quyidagi videolar maktabimiz dars jarayonidan lavhalarni ko‘rsatadi:</p>
+
+    <div class="video-grid">
+
+        <!-- 1. Lokal MP4 video -->
+        <div class="video-card">
+            <video controls>
+                <source src="videos/lesson1.mp4" type="video/mp4">
+                Sizning brauzeringiz video elementni qo‘llab-quvvatlamaydi.
+            </video>
+            <p>Matematika darsidan lavha (MP4)</p>
+        </div>
+
+        <!-- 2. YouTube video -->
+        <div class="video-card">
+            <iframe width="100%" height="215" 
+                src="https://www.youtube.com/embed/VIDEO_ID=ivKtlkcFDVG4ytn" 
+                title="YouTube video" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+            <p>Fizika darsidan lavha (YouTube)</p>
+        </div>
+
+    </div>
+</section>
+<!-- YANGILIKLAR BO‘LIMI -->
+<section class="news" id="news">
+
+    <h2><U> Yangiliklar </U></h2>
+    <p>Maktabimizdagi so‘nggi yangiliklar:</p>
+
+    <div class="news-grid">
+        <div class="news-card">
+            <img src="images/news1.png" alt="Yangilik 1">
+            <h3>Matematika olimpiadasi g‘oliblari</h3>
+            <p>O‘quvchilarimiz shahar matematika olimpiadasida g‘olib bo‘lishdi.</p>
+        </div>
+
+        <div class="news-card">
+            <img src="images/news2.jpg" alt="Yangilik 2">
+            <h3>Yangi laboratoriya ochildi</h3>
+            <p>Fizika va kimyo fanlari uchun yangi laboratoriya ishga tushirildi.</p>
+        </div>
+
+        <div class="news-card">
+            <img src="images/news3.jpg" alt="Yangilik 3">
+            <h3>Sport musobaqasi</h3>
+            <p>Maktab jamoasi sport musobaqalarida faxrli o‘rinlarni egalladi.</p>
+        </div>
+
+        <div class="news-card">
+            <img src="images/news4.jpg" alt="Yangilik 4">
+            <h3>Ijodiy tanlov</h3>
+            <p>O‘quvchilar orasida ijodiy insho va rasm tanlovi bo‘lib o‘tdi.</p>
+        </div>
+    </div>
+</section>
+<!-- O‘ZIM HAQIMDA (PREMIUM DESIGN) -->
+<section class="about-premium">
+    <!-- ALOQA / CONTACT BO‘LIMI -->
+<section class="contact-premium" id="contact">
+
+    <h2><u>Bog‘lanish</u></h2>
+    <p>Agar savollaringiz bo‘lsa, quyidagi manzillar orqali bog‘lanishingiz mumkin</p>
+
+    <div class="contact-cards">
+
+        <!-- GMAIL -->
+        <div class="contact-card gmail">
+            <div class="icon">📧</div>
+            <h3>Gmail</h3>
+            <a href="mailto:tursinboyevturdibek@gmail.com">tursinboyevturdibek@gmail.com</a>
+        </div>
+
+        <!-- TELEGRAM -->
+        <div class="contact-card telegram">
+            <div class="icon">🛫</div>
+            <h3>Telegram</h3>
+            <a href="https://t.me/Ulugbekovich_T_T" target="_blank">@Ulugbekovich_T_T</a>
+        </div>
+
+    </div>
+</section>
+
+    <div class="about-glass">
+
+        <div class="about-left">
+            <div class="photo-frame">
+                <img src="images/me.jpg" alt="Mening rasmim">
+            </div>
+        </div>
+
+        <div class="about-right">
+            <h2><u>Sayt muallifi : Tursunboyev Turdibek Ulug'bekovich</u></h2>
+            <h1>Web loyihachi Creator: Turdibek</h1>
+
+            <p>
+                Ushbu veb-sayt maktab faoliyatini zamonaviy va qulay
+                ko‘rinishda taqdim etish maqsadida ishlab chiqildi.
+                Sayt barcha foydalanuvchilar uchun.
+            </p>
+
+            <div class="about-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Ta’limiy loyiha</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+<script src="js/scroll.js"></script>
+<script src="js/theme.js"></script>
+
+</body>
+</html>
