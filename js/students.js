@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-    const classes = ["1-sinf","2-sinf","3-sinf","4-sinf","5-sinf","6-sinf","7-sinf","8-sinf","9-sinf","10-sinf","11-sinf","12-sinf"];
+    const classes = ["Boshlang'ich","1-sinf","2-sinf","3-sinf","4-sinf","5-sinf","6-sinf","7-sinf","8-sinf","9-sinf","10-sinf","11-sinf"];
     const totalStudents = 400; 
     const studentsPerClass = Math.floor(totalStudents / classes.length); 
     const extraStudents = totalStudents % classes.length; 
@@ -71,3 +71,4 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
 });
+
